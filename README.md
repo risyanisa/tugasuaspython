@@ -42,7 +42,7 @@ python main.py
 
 📸 Screenshot (placeholder)
 
-![Project Screenshot](screenshots/python1.png) [Project Screenshot](screenshots/python2.png)
+![Project Screenshot](screenshots/python1.png) ![Project Screenshot](screenshots/python2.png)
 
 🔖 Manual quick link
 
