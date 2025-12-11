@@ -1,13 +1,15 @@
-# Tugas UAS - Product Manager (Simple CLI)
+# 📦 Tugas UAS — Product Manager (Simple CLI)
 
-A small Python project for managing products with a minimal UI and a lightweight database module. This repository contains the application entrypoint and organized packages for model, database, and UI logic. Use this README to quickly run the app and add your manual and screenshots.
+A small, educational Python project to manage products with a minimal UI and a lightweight database module.
 
-**Features**
-- Basic product model stored using the `database` module
-- Console/menu-driven UI in `ui/menu.py`
-- Simple, easy-to-extend structure for learning and assignments
+🚀 Quick highlights
 
-**Project Structure**
+- **Easy to extend:** Clear package layout for `model`, `database`, and `ui`.
+- **CLI menu:** Basic console-driven UI in `ui/menu.py`.
+- **Lightweight storage:** Database helpers in `database/db.py`.
+
+🗂 Project structure
+
 ```
 main.py
 database/
@@ -19,38 +21,44 @@ model/
 ui/
     __init__.py
     menu.py
+docs/
+    MANUAL.md
+screenshots/  # add screenshots here
 ```
 
-**Quick Start**
-- Requirements: Python 3.8+ (recommended)
+✅ Quick start
+
+- Requirements: Python 3.8+
 - From the project root run:
 
 ```powershell
 python main.py
 ```
 
-(If your environment uses `py` launcher: `py main.py`)
+📝 Manual (in-repo)
 
-**Where to put a screenshot**
-Add a screenshot file to `screenshots/screenshot.png` and it will be displayed here in the README. Example markdown is already included below — replace the file with your actual screenshot.
+- The full manual is kept at `docs/MANUAL.md`.
+- You can edit that file to add step-by-step instructions, examples, and screenshots.
 
-![Project Screenshot](screenshots/screenshot.png)
+📸 Screenshot (placeholder)
 
-**Manual / Documentation**
-A manual placeholder is provided at `docs/MANUAL.md`. Open that file and replace the placeholder content with your step-by-step manual, usage examples, and any screenshots or diagrams.
+![Project Screenshot](screenshots/python1.png) [Project Screenshot](screenshots/python2.png)
 
-**How to add the manual and screenshot**
-- Edit `docs/MANUAL.md` and add your manual text and examples.
-- Create a `screenshots/` folder at project root and add `screenshot.png` (recommended resolution: 1280x720 or similar).
-- Update this README or the manual as needed.
+🔖 Manual quick link
 
-**Development notes**
-- Keep database files (if created) out of git — the provided `.gitignore` covers common Python artifacts and virtual environments.
-- Tests are not included; consider adding a `tests/` folder and a `requirements.txt` if you add dependencies.
+- See the manual here: 📚 `docs/MANUAL.md`
 
-**Contributing**
-- Make small, focused commits.
-- Add a descriptive commit message and push to a feature branch.
+💡 Development notes
 
-**License**
-Add a license file if you intend to publish this project. For coursework, you may keep the code private or add an appropriate license later.
+- Keep database and generated files out of git (see `.gitignore`).
+- If you add dependencies, add `requirements.txt` and list them.
+
+🤝 Contributing
+
+- Use feature branches and descriptive commits.
+
+© Add a `LICENSE` file if you plan to publish this repository.
+
+---
+
+If you want me to add a sample screenshot file or commit these changes for you, tell me and I can run the git commands next.
